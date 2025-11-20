@@ -24,4 +24,4 @@ Real-world Generative AI agents I have built and deployed at work (Xtrastaff + A
 - Customer Support Agent Enablement Playbook (20-market rollout plan)
 - Model Evaluation Dashboard (Power BI)
 
-Built with ❤️ using Atlassian Rovo, Claude, Grok, and Python.
+Built with using Atlassian Rovo, Claude, Grok, and Python.
