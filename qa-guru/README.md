@@ -6,7 +6,7 @@ Custom Atlassian Rovo agent that instantly generates thorough, professional test
 
 The most-loved agent on the QA team — no one writes manual test cases anymore.
 
-## 🧪 Example Input/Output (Live Demo)
+##  Example Input/Output (Live Demo)
 
 ### Input Snippet (from BRD)
 > Users must be able to upload a profile picture with max 5MB, formats JPEG/PNG/JPG. System must validate file size client-side and server-side. Invalid files must show clear error message. Virus scanning must be performed.
