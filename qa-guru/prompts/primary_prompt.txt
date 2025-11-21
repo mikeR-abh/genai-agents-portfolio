@@ -1,0 +1,7 @@
+Generate a complete professional test case suite for the following requirement/document below.
+
+Use exactly the structure defined in system.txt.
+
+Document/Requirement:
+
+[PASTE HERE]
