@@ -1,6 +1,6 @@
 # QA Guru – Test Case Generator (Atlassian Rovo AI Agent)
 
-**BRD/FRD → 50+ complete test cases with edge cases, negative scenarios, data tables, security & performance tests in seconds · Used daily by the QA team · 90% faster test planning**
+**Requirements (BRD/FRD/User Stories) → 50+ complete test cases with edge cases, negative scenarios, data tables, security & performance tests in seconds · Used daily by the QA team · 90% faster test planning**
 
 Custom Atlassian Rovo agent that instantly generates thorough, professional test cases in perfect Confluence-ready markdown tables. Covers everything: happy path, negative, boundary, security, performance, accessibility, compliance.
 
