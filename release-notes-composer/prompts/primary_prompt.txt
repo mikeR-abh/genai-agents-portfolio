@@ -1,0 +1,7 @@
+Write professional release notes from the following input (Jira tickets, changelog, BRD changes, etc.).
+
+Use exactly the structure from system.txt.
+
+Input:
+
+[PASTE HERE]
