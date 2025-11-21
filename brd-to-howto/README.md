@@ -1,44 +1,39 @@
-# How-To Doc Generator – Atlassian Rovo AI Agent
+# BRD → How-To Document Generator – Atlassian Rovo AI Agent
 
-**One-click BRD → perfect How-To guide · Deployed organization-wide · Saves 80-90% documentation time**
+**One-click BRD/FRD → perfect user guide · Deployed org-wide · Saves 80-90% documentation time**
 
-I built this custom agent in Atlassian Rovo (Confluence/Jira) that turns any BRD/FRD into a clean, user-ready How-To document in seconds.
+Custom Atlassian Rovo agent that instantly converts any Business Requirements Document (BRD) or Functional Requirements Document (FRD) into a clean, structured, user-friendly How-To guide.
 
-Best part: I fed the agent its own BRD and it wrote its own perfect "How to Use" guide with zero edits.
+Meta demo: I fed the agent its own BRD → it wrote its own perfect "How to Use" guide with zero edits.
 
-### Live Demo (Meta!)
+### Live Input → Output Demo
 
-**Input** → My own BRD (6 pages)  
-[Download BRD input here](./brd-input.pdf)
+**Input BRD (6 pages)**  
+[Download BRD](./brd-input.pdf)
 
-**Output** → 100% AI-generated How-To (zero manual edits)  
-[Download generated How-To here](./how-to-output.pdf)
+**100% AI-generated How-To output (zero manual edits)**  
+[Download generated guide](./how-to-output.pdf)
 
-### Screenshots
+### Full creation walkthrough with Confluence screenshots  
+[Download step-by-step guide](./how-i-created-the-agent.pdf)
 
-![Rovo sidebar – agent appears here](./screenshot-rovo-sidebar.png)
-![Agent generating the document](./screenshot-generation.png)
-![Final Confluence page created by the agent](./screenshot-confluence-output.png)
+### Exact System Prompt (used in Rovo)
 
-### Exact Prompt Used in Rovo (system instructions)
+[`prompts/system.txt`](./prompts/system.txt)
 
-See file: [`prompts/system.txt`](./prompts/system.txt)
+### Ready-to-copy prompt for ChatGPT / Grok / Claude
 
-### Prompt for ChatGPT / Grok / Claude (copy-paste ready)
+[`prompts/primary_prompt.txt`](./prompts/primary_prompt.txt)
 
-See file: [`prompts/primary_prompt.txt`](./prompts/primary_prompt.txt)
-
-### How I built it (step-by-step with screenshots)
-
-[See full creation guide](./how-i-created-the-agent.pdf)
-
-### Conversation Starters I added in Rovo
+### Conversation Starters added in Rovo
 - Create a how-to document based on this page
 - Generate user guide from this BRD
 - Convert this workflow into step-by-step instructions
 - Make it beginner-friendly
 
 Built & deployed: November 2025  
-Used every day by PMs, technical writers, and engineering teams.
+Used daily by product managers, technical writers, and engineering teams.
 
-Want this agent in your Confluence? Just copy the prompt from `prompts/system.txt` → create new Rovo agent → paste → activate. Done in 2 minutes.
+Want this agent in your Confluence?  
+Just copy the content of `prompts/system.txt` → create new Rovo agent → paste → activate.  
+Done in under 2 minutes.
