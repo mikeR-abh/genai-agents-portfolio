@@ -1,0 +1,11 @@
+rules_version = '2';
+service cloud.firestore {
+match /databases/{database}/documents {
+// This rule allows authenticated users (via __initial_auth_token) to create,
+// read, update, and delete documents in their private 'summaries' collection.
+// The path structure matches the code's saving logic: /artifacts/{appId}/users/{userId}/summaries/{docId}
+match /artifacts/{appId}/users/{userId}/{collectionName}/{documentId} {
+allow read, create, update, delete: if request.auth.uid == userId;
+}
+}
+}
